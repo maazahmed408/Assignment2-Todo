@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To do</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="main" style="filter: blur(8px); -webkit-filter: blur(5px)">
+			<div class="header">
+				<h1><span class="header-bold">Task</span> Lists</h1>
+				<div class="header-right">
+					<button><i class="fas fa-plus"></i></button>
+					<p>Add List</p>
+				</div>
+			</div>
+			<div class="cards-section">
+				<a href="card-open-page.html">
+					<div class="card">
+						<h2 class="card-title">Trip to Paris</h2>
+						<div class="card-body">
+							<p>Completed Task</p>
+							<input type="checkbox" name="checkbox" />
+							<label for="checkbox">Pending Task</label>
+						</div>
+					</div>
+				</a>
+				<a href="card-open-page.html">
+					<div class="card">
+						<h2 class="card-title">Trip to Paris</h2>
+						<div class="card-body">
+							<p>Completed Task</p>
+							<input type="checkbox" name="checkbox" />
+							<label for="checkbox">Pending Task</label>
+						</div>
+					</div>
+				</a>
+				<a href="card-open-page.html">
+					<div class="card">
+						<h2 class="card-title">Trip to Paris</h2>
+						<div class="card-body">
+							<p>Completed Task</p>
+							<input type="checkbox" id="checkbox" />
+							<label for="checkbox">Pending Task</label>
+						</div>
+					</div>
+				</a>
+			</div>
+		</section>
+
+		<section class="pop-up">
+			<div class="modal">
+				<p class="modal-title">Add New List</p>
+				<input class="modal-input" type="text" />
+				<button class="modal-button">ADD</button>
+			</div>
+		</section>
+	</body>
+</html>
